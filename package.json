@@ -1,0 +1,20 @@
+{
+  "name": "s3uploader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "keywords": [],
+  "author": "Phil Owen",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.7.2",
+    "aws-sdk": "^2.257.1",
+    "busboy-body-parser": "^0.3.2",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3"
+  }
+}

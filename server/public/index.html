@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="vendors/angular.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="directives/fileModel.js"></script>
+    <script type="text/javascript" src="scripts/client.js"></script>
+  </head>
+  <body ng-app="s3Uploader" ng-controller="s3UploaderController as vm">
+    <h1>File Upload to S3 Bucket</h1>
+    <form ng-submit="vm.uploadFile(file)">
+      <input  file-model="file.upload" name="myfile" type="file">
+      <button type="submit">Upload</button>
+    </form>
+  </body>
+</html>
